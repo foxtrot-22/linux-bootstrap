@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get update
-apt-get upgrade
+apt-get -y upgrade
 echo ***Updates complete***
 sleep 2
 apt-get install -y dkms openssh-server tmux htop curl apt-transport-https build-essential linux-headers-$(uname -r)
